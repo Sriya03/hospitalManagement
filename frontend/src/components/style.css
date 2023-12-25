@@ -36,6 +36,7 @@
   
   .div.active {
     color: #ffffff;
+    border-bottom: 3px solid #eb168b;
   }
   
   .overlap-group {

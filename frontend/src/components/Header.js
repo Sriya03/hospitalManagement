@@ -5,7 +5,7 @@ import userIcon from '../assets/Rectangle 1.png'
 
 const Header = () => {
   const { role, toggleRole, activeTab, toggleTab } = useContext(PatientsContext);
-
+  console.log(activeTab)
   return (
     <AppBar position="static" className="frame" sx={{ padding: 0 }}>
       <Toolbar disableGutters={true} className="header">
@@ -18,7 +18,8 @@ const Header = () => {
         </div>
 
         {/* Tabs */}
-        <Typography className={`text-wrapper ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => toggleTab('dashboard')}>
+        
+        <Typography className={`div ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => toggleTab('dashboard')}>
           Dashboard
         </Typography>
         <Typography className={`div ${activeTab === 'payment' ? 'active' : ''}`} onClick={() => toggleTab('payment')}>
