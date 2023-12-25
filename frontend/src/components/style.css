@@ -1,0 +1,133 @@
+.frame {
+    background-color: #181920;
+    border: 0.1vw solid #ffffff33;
+    height: 8vh; /* Adjusted to viewport height */
+    overflow: hidden;
+    position: relative;
+    width: 80vw; /* Adjusted to viewport width */
+  }
+  
+  .text-wrapper, .div, .text-wrapper-2 {
+    color: #ffffff80;
+    font-family: "Manrope-Medium", Helvetica;
+    font-size: 1.2vh; /* Adjusted to viewport height */
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2vh; /* Adjusted to viewport height */
+    cursor: pointer;
+  }
+  
+  .text-wrapper {
+    left: 19vw; /* Adjusted to viewport width */
+    width: 4vw; /* Adjusted to viewport width */
+  }
+  
+  .div {
+    left: 28vw; /* Adjusted to viewport width */
+    width: 4vw; /* Adjusted to viewport width */
+  }
+  
+  .text-wrapper-2 {
+    left: 37vw; /* Adjusted to viewport width */
+    width: 4vw; /* Adjusted to viewport width */
+  }
+  
+  .div.active {
+    color: #ffffff;
+  }
+  
+  .overlap-group {
+    border-radius: 0.5vw;
+    height: 2.5vh; /* Adjusted to viewport height */
+    left: 73vw; /* Adjusted to viewport width */
+    position: absolute;
+    top: 2vh; /* Adjusted to viewport height */
+    width: 11vw; /* Adjusted to viewport width */
+  }
+  
+  .div-2 {
+    align-items: flex-start;
+    background-color: #151517;
+    border: 0.1vw solid #ffffff33;
+    border-radius: 0.5vw;
+    display: flex;
+    gap: 0.6vw;
+    padding: 0.5vw;
+    width: 11vw; /* Adjusted to viewport width */
+  }
+  
+  .img {
+    height: 1.5vh; /* Adjusted to viewport height */
+    width: 1.5vw; /* Adjusted to viewport width */
+  }
+  
+  .text-wrapper-3 {
+    color: #ffffff6b;
+    font-family: "Manrope-Medium", Helvetica;
+    font-size: 1.2vh; /* Adjusted to viewport height */
+    font-weight: 500;
+    width: 4vw; /* Adjusted to viewport width */
+  }
+  
+  .group {
+    height: 2vh; /* Adjusted to viewport height */
+    left: 6vw; /* Adjusted to viewport width */
+    position: absolute;
+    top: 1.5vh; /* Adjusted to viewport height */
+    width: 8vw; /* Adjusted to viewport width */
+  }
+  
+  .cryptodash {
+    color: #ffffff;
+    font-family: "Manrope-Bold", Helvetica;
+    font-size: 1.4vh; /* Adjusted to viewport height */
+    font-weight: 400;
+    position: absolute;
+    width: 8vw; /* Adjusted to viewport width */
+  }
+  
+  .span {
+    font-weight: 700;
+  }
+  
+  .text-wrapper-4 {
+    font-family: "Manrope-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .div-3 {
+    display: inline-flex;
+    gap: 2vw;
+    left: 86vw; /* Adjusted to viewport width */
+    position: absolute;
+    top: 1.5vh; /* Adjusted to viewport height */
+  }
+
+  .icon{
+    height: 3.5vh;
+  }
+  
+  .rectangle {
+    height: 2vh; /* Adjusted to viewport height */
+    object-fit: cover;
+    width: 2vw; /* Adjusted to viewport width */
+  }
+  
+  .rectangle-2 {
+    height: 0.3vh; /* Adjusted to viewport height */
+    left: 18.7vw; /* Adjusted to viewport width */
+    position: absolute;
+    top: 5vh; /* Adjusted to viewport height */
+    width: 6vw; /* Adjusted to viewport width */
+  }
+  
+  .rectangle-3 {
+    background-color: #c4c4c4;
+    height: 6vh; /* Adjusted to viewport height */
+    left: 4.4vw; /* Adjusted to viewport width */
+    position: absolute;
+    top: -6vh; /* Adjusted to viewport height */
+    width: 92vw; /* Adjusted to viewport width */
+  }

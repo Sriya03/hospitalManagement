@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.text-wrapper.active, .div.active {
+  color: #ffffff;
+  border-bottom: 'pink';
+}
+
+.header {
+  background-color: #181920;
+  padding: 10px 20px;
+  
+}
+
+.main {
+  padding: 20px 0px 0px 0px;
+  background-color: #151517;
+  color: #ccc;
+  min-height: 100vh;
+}
+
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.addBox{
+  background-color: #181920 !important;
+  color: #ccc !important;
+  cursor: pointer;
+  width: 60vw;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.cardrow{
+  display: flex;
+  justify-content: space-between;
+}
